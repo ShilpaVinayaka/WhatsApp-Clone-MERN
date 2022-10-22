@@ -10,9 +10,9 @@ const app = express();       //application instance
 const port = process.env.PORT || 9000;        //Port where we will be running our appli
 
 const pusher = new Pusher({
-    appId: "1494928",
-    key: "c6ea993ce75819e1df85",
-    secret: "5afb82bd2ca88d6e4613",
+    appId: "******",
+    key: "**************",
+    secret: "*******************",
     cluster: "ap2",
     useTLS: true
     //,encrypted:true  -->not in our code (updated)
@@ -30,7 +30,7 @@ app.use(cors());
 // })
 
 // DB config
-const connection_url ="mongodb+srv://admin:20FGhS5XtWib9Z7b@cluster1.dpdq4x3.mongodb.net/?retryWrites=true&w=majority"
+const connection_url ="*************************"
 mongoose.connect(connection_url, {
     // useCreateIndex: true,
     // useNewUrlParser: true,
